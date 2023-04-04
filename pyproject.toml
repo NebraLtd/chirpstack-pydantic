@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chirpstack-pydantic"
+version = "4.3.0"
+description = ""
+authors = ["Kashif Iftikhar <kashif@compulife.com.pk>"]
+readme = "README.md"
+packages = [{include = "chirpstack_pydantic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+protobuf = "^4.22.1"
+pydantic = "^1.10.7"
+protobuf-to-pydantic = "^0.1.6.1"
+chirpstack-api = "4.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
