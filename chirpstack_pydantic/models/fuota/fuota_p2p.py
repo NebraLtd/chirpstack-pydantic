@@ -6,7 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 from enum import IntEnum
 from google.protobuf.message import Message  # type: ignore
-from protobuf_to_pydantic.util import Timedelta
+from chirpstack_pydantic.util import Timedelta
 from chirpstack_pydantic.base import BaseModel
 from pydantic.fields import FieldInfo
 import typing

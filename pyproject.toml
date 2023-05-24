@@ -13,6 +13,9 @@ pydantic = "1.9.2"
 chirpstack-api = "4.3.0"
 protobuf-to-pydantic = "0.1.6.1"
 
+[tool.poetry.group.dev.dependencies]
+protobuf-to-pydantic = "0.1.6.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

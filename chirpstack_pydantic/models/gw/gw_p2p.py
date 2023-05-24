@@ -8,8 +8,8 @@ from datetime import datetime
 from datetime import timedelta
 from enum import IntEnum
 from google.protobuf.message import Message  # type: ignore
-from protobuf_to_pydantic.customer_validator import check_one_of
-from protobuf_to_pydantic.util import Timedelta
+from chirpstack_pydantic.validators import check_one_of
+from chirpstack_pydantic.util import Timedelta
 from chirpstack_pydantic.base import BaseModel
 from pydantic import root_validator
 from pydantic.fields import FieldInfo

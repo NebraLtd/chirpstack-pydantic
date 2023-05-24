@@ -7,7 +7,7 @@ from .frameLog_p2p import DownlinkFrameLog
 from .frameLog_p2p import UplinkFrameLog
 from datetime import datetime
 from google.protobuf.message import Message  # type: ignore
-from protobuf_to_pydantic.customer_validator import check_one_of
+from chirpstack_pydantic.validators import check_one_of
 from chirpstack_pydantic.base import BaseModel
 from pydantic import root_validator
 from pydantic.fields import FieldInfo
