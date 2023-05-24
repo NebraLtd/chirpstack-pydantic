@@ -11,8 +11,6 @@ python = "^3.10"
 protobuf = "4.22.1"
 pydantic = "1.9.2"
 chirpstack-api = "4.3.0"
-
-[tool.poetry.group.dev.dependencies]
 protobuf-to-pydantic = "0.1.6.1"
 
 [build-system]
