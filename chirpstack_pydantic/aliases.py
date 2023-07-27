@@ -8,5 +8,13 @@ issues we keep a dict of such incompatibilities here so our package keeps workin
 from .models import api as pydantic_api
 from chirpstack_api import api as chirpstack_api
 
-protobuf_aliases = {"ListUsersResponse": pydantic_api.ListUserResponse}
-pydantic_to_protobuf_aliases = {"ListUserResponse": chirpstack_api.ListUsersResponse}
+protobuf_aliases = {
+    "ListUsersResponse": pydantic_api.ListUserResponse,
+    "ListDevicesResponse": pydantic_api.ListDeviceResponse
+}
+
+pydantic_to_protobuf_aliases = {
+    "ListUserResponse": chirpstack_api.ListUsersResponse,
+    "ListDeviceResponse": chirpstack_api.ListDevicesResponse
+}
+

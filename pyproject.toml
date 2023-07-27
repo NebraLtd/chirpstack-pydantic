@@ -9,7 +9,7 @@ packages = [{include = "chirpstack_pydantic"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 protobuf = "4.22.1"
-pydantic = "1.9.2"
+pydantic = "1.10.12"
 chirpstack-api = "4.3.0"
 protobuf-to-pydantic = "0.1.6.1"
 
